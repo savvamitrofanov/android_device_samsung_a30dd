@@ -26,6 +26,5 @@ $(call inherit-product, vendor/omni/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a30dd
 PRODUCT_NAME := omni_a30dd
-PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := Galaxy A30
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
