@@ -1,7 +1,7 @@
 /modem           emmc  /dev/block/platform/13500000.dwmmc0/by-name/radio       flags=backup=1;display="Baseband"
 /boot            emmc  /dev/block/platform/13500000.dwmmc0/by-name/boot        
 /cache           ext4  /dev/block/platform/13500000.dwmmc0/by-name/cache       flags=backup=1
-/data            ext4  /dev/block/platform/13500000.dwmmc0/by-name/userdata
+/data            ext4  /dev/block/platform/13500000.dwmmc0/by-name/userdata    flags=fileencryption=aes-256-cts
 /efs             ext4  /dev/block/platform/13500000.dwmmc0/by-name/efs         flags=backup=1;display="EFS"
 /sec_efs         ext4  /dev/block/platform/13500000.dwmmc0/by-name/sec_efs     flags=backup=1;display="Sec EFS"
 /system_root     ext4  /dev/block/platform/13500000.dwmmc0/by-name/system      flags=display="System";backup=0
